@@ -1,0 +1,128 @@
+/* Ensure .banner takes up the full viewport height or adjust as needed */
+.banner {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  align-items: center; /* Horizontally center items */
+  justify-content: center; /* Center the content section vertically */
+  height: 100vh; /* Full viewport height */
+  background-image: url("../../assets/images/netlix.jpg");
+  background-size: cover; /* Cover the entire banner */
+  background-position: center; /* Center the background image */
+}
+
+/* Logo section styling */
+.logo {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Space between items */
+  width: 90%; /* Adjust width as needed */
+  margin-bottom: 20px; /* Space between logo and content */
+  position: absolute; /* Position absolute to allow centering of content */
+  top: 0; /* Align logo to the top of the banner */
+}
+
+/* Content styling */
+.content {
+  text-align: center; /* Center text inside the content */
+  color: white; /* Change text color if needed */
+}
+
+.trendingNow {
+  background-color: #000;
+  color: #fff;
+}
+.carausel {
+  width: 85%;
+  margin: 0 auto;
+}
+/* #carouselExample{
+    margin: 15px;
+  } */
+.carousel-inner {
+  padding: 0 15px;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  border: none;
+  overflow: hidden;
+  position: relative;
+}
+.accordion-body{
+  color: #fff;
+}
+
+
+
+.custom-card {
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+  height: 90%;
+}
+
+.card-number {
+  position: absolute;
+  left: -12px;
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  border: 1px solid #fff;
+  bottom: 10px;
+}
+.card-text {
+  color: #fff;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  border-radius: 0;
+  border: none !important;
+}
+
+.accordion button {
+  padding: 1.5rem;
+  background: #414141;
+  color: #fff;
+}
+.accordion-body {
+  background: #2d2d2d;
+}
+.accordion p {
+  font-size: 1.5rem;
+}
+.accordion {
+  margin: 0 auto;
+  width: 85%;
+  
+}
+.carausel {
+  background-color: #000;
+  color: #fff;
+}
+.trendingNow button.carousel-control-prev,
+button.carousel-control-next {
+  color: #fff;
+  height: 6.5rem;
+  width: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  padding: 3px;
+  align-content: center;
+  margin-top: 3%;
+  border-radius: 8px;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.7) 
+}
